@@ -1,16 +1,17 @@
-package com.example.inventory;
+package com.example.products;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class InventoryApplication {
+public class ProductsApplication {
 
 	public static void main(String[] args) {
 
-		SpringApplication.run(InventoryApplication.class, args);
+		SpringApplication.run(ProductsApplication.class, args);
 
-		System.out.println("inventory server started");
+		System.out.println("product service running...");
 	}
 
 }
+
